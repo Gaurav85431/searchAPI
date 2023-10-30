@@ -23,7 +23,7 @@ app.listen(3000, function () {
   console.log("Server is ready");
 })
 
-app.use(cors);
+app.use(cors());
 
 ////
 /** */
