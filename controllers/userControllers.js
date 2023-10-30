@@ -1,5 +1,6 @@
 const user = require('../models/userModels');
 const bcyptjs = require('bcryptjs');
+const path = require('path');
 
 // insert data:::
 
