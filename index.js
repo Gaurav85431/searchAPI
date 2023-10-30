@@ -3,7 +3,7 @@ const app = express();
 const http = require("http");
 const mongoose = require('mongoose');
 //mongoose.connect('mongodb://127.0.0.1:27017/LonexSearchAPI');
-
+const cors = require('cors');
 
 
 //user routes
